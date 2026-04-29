@@ -36,29 +36,3 @@ p {
   font-size: 1.1rem;
   margin-bottom: 20px;
 }
-
-/* ボタンのスタイル */
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 10px;
-  background-color: #0056b3; /* 濃い青色 */
-  color: white;              /* 文字は白 */
-  text-decoration: none;     /* 下線を消す */
-  border-radius: 25px;       /* カプセル型の丸み */
-  transition: 0.3s;          /* 変化を滑らかに */
-  font-weight: bold;
-}
-
-/* マウスを乗せた時の動き */
-.button:hover {
-  background-color: #004494; /* 少し濃くする */
-  transform: translateY(-2px); /* ほんの少し浮き上がる */
-}
-
-/* 自己紹介セクションの余白 */
-.profile-section {
-  margin-bottom: 30px;
-  border-top: 1px solid #eee;
-  padding-top: 20px;
-}
