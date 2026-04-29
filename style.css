@@ -1,0 +1,9 @@
+body {
+  background-color: #f0f8ff; /* 薄い青色の背景 */
+  text-align: center;      /* 文字を中央寄せ */
+  font-family: sans-serif; /* 読みやすいフォント */
+  padding-top: 50px;
+}
+h1 {
+  color: #007bff;          /* タイトルを青色に */
+}
