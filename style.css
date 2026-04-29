@@ -72,3 +72,14 @@ p {
   border: 3px solid #e6f7ff; /* 画像の周りに薄い青の縁取り */
   margin: 20px 0;     /* 上下に余白を作る */
 }
+
+/* 画像リンクにマウスを乗せた時の演出 */
+a img.profile-img {
+  transition: transform 0.3s, opacity 0.3s;
+  cursor: pointer; /* マウスを乗せると指マークになる */
+}
+
+a img.profile-img:hover {
+  transform: scale(1.05); /* ほんの少し大きくする */
+  opacity: 0.8;          /* 少し透明にする */
+}
