@@ -1,17 +1,18 @@
+/* 全体の設定 */
 body {
-  background-color: #f0f8ff; /* 薄い青色の背景 */
-  color: #2d3748;           /* 文字は濃いグレーで読みやすく */
+  background-color: #e6f7ff; /* 爽やかな薄い青色（水色） */
+  color: #2d3748;           /* 文字は濃いグレー */
   font-family: sans-serif;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  text-align: center;      /* 内容を中央に寄せる */
+  line-height: 1.8;
+  margin: 0;
+  padding: 50px 20px;
+  text-align: center;
 }
 
+/* 見出しの設定 */
 h1 {
-  color: #2c7a7b;           /* タイトルを濃い目の緑にして統一感を出す */
-  border-bottom: 2px solid #2c7a7b;
-  display: inline-block;    /* 下線を文字の長さに合わせる */
-  padding-bottom: 5px;
+  color: #0056b3;           /* 濃い青色 */
+  border-bottom: 2px solid #0056b3;
+  display: inline-block;
+  padding-bottom: 10px;
 }
