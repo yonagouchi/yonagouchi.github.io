@@ -62,3 +62,13 @@ p {
   border-top: 1px solid #eee;
   padding-top: 20px;
 }
+
+/* 画像のスタイル */
+.profile-img {
+  width: 150px;       /* 横幅を150ピクセルに制限 */
+  height: 150px;      /* 縦幅を150ピクセルに制限 */
+  object-fit: cover;  /* 画像を歪ませずに枠に収める */
+  border-radius: 50%; /* 正方形の画像を「真ん丸」にする */
+  border: 3px solid #e6f7ff; /* 画像の周りに薄い青の縁取り */
+  margin: 20px 0;     /* 上下に余白を作る */
+}
