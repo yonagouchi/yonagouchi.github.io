@@ -36,29 +36,6 @@ p {
   font-size: 1.1rem;
   margin-bottom: 20px;
 }
-/* 2. メインコンテンツの枠（カード風） */
-.container {
-  background-color: #ffffff; /* 白い枠線 */
-  padding: 40px;
-  border-radius: 15px;      /* 角を丸く */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* ほんのり影をつける */
-  max-width: 600px;
-  width: 90%;
-}
-
-/* 3. 見出しのデザイン */
-h1 {
-  color: #0056b3;           /* 濃い青色 */
-  margin-top: 0;
-  border-bottom: 2px solid #e6f7ff;
-  padding-bottom: 10px;
-}
-
-/* 4. メッセージの装飾 */
-p {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
-}
 
 /* ボタンのスタイル */
 .button {
